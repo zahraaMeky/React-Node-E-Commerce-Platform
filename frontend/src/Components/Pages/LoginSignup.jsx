@@ -3,6 +3,7 @@ import './CSS/LoginSignup.css'
 import toast, { Toaster } from 'react-hot-toast';
 function LoginSignup() {
   const [state,setState]=useState("Login");
+  const apiUrl = process.env.REACT_APP_API_URL;
   const [formData,setformData]=useState({
     username:"",
     password:"",
@@ -17,7 +18,7 @@ function LoginSignup() {
     try {
       let responseData;
       console.log('login Function Executed', formData);
-      const response = await fetch('http://localhost:4000/login', {
+      const response = await fetch(`${apiUrl }/login`, {
           method: 'POST',
           headers: {
               Accept: 'application/json',
@@ -43,7 +44,7 @@ function LoginSignup() {
       try {
           let responseData;
           console.log('signup Function Executed', formData);
-          const response = await fetch('http://localhost:4000/signup', {
+          const response = await fetch(`${apiUrl }/signup`, {
               method: 'POST',
               headers: {
                   Accept: 'application/json',
