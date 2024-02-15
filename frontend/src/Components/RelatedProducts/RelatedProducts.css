@@ -1,0 +1,26 @@
+.related-products h1{
+    color:#171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.related-products hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+    display:inline-block
+
+}
+
+@media (max-width:1280px) { 
+    .related-products h1{font-size: 40px;}
+    .related-products hr{width: 160px;height: 4px;}
+}
+@media (max-width:1024px) { 
+    .related-products h1{font-size: 30px;}
+    .related-products hr{width: 120px;height: 3px;}
+}
+@media (max-width:800px) { 
+    .related-products h1{font-size: 20px;}
+    .related-products hr{width: 100px}
+}
