@@ -15,7 +15,7 @@ Shopper, is a modern and efficient e-commerce platform built with React.js for t
 - React
 - MongoDB
   
- ##  🔗 Links:
+ ##🔗 Links:
 
 Live Admin Panel (https://ecommerceadmin-27ol.onrender.com)<br/>
 Live Site (https://ecommerce-0ii0.onrender.com)<br/>
