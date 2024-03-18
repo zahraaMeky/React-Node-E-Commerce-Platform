@@ -4,7 +4,8 @@
 <div align="left">
 <br/>
   <h3 align="center">Shopper => React-Node E-Commerce Platform</h3>
-  <a href="https://ecommerceadmin-27ol.onrender.com">Live Admin panel:</a>
+  <a href="https://ecommerceadmin-27ol.onrender.com">Live Admin panel</a> 
+  <span>||</span>
   <a href="https://ecommerce-0ii0.onrender.com">Live Site:</a>
   
   ## <a name="introduction">🤖 Introduction</a>
