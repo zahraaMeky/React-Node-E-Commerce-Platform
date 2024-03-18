@@ -1,7 +1,7 @@
-<div align="left">
+<div align="center">
 <img src="https://github.com/zahraaMeky/React-Node-E-Commerce-Platform/assets/123356306/c2fed1f1-6450-4c0a-858e-e126b905b174" alt="ecommerce" />
 </div>
-<div align="center">
+<div align="left">
 <br/>
   <h3 align="center">Shopper => React-Node E-Commerce Platform</h3>
   <a href="https://ecommerceadmin-27ol.onrender.com">Live Admin panel:</a>
